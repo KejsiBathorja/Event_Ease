@@ -1,5 +1,5 @@
-# sefshn24
+# Inxhinjeri Softi, Bachelor në T. I. K.
 
 
 
-## Inxhinjeri Softi, Bachelor në T. I. K.
+## ..
