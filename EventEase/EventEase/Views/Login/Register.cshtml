@@ -1,0 +1,31 @@
+﻿@model EventEase.Models.Register
+@{
+    ViewData["Title"] = "Register";
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width" , initial-scale="1.0">
+    <title>@ViewData["Title"]</title>
+    <link href="~/css/register.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <div class="container">
+        <form asp-action="Register" method="post">
+            <h1>@ViewData["Title"]</h1>
+            <input type="text" asp-for="FirstName" placeholder="First Name" required>
+            <input type="text" asp-for="LastName" placeholder="Last Name" required>
+            <input type="email" asp-for="E_mail" placeholder="Email" required>
+            <input type="text" asp-for="Username" placeholder="UserName" required>
+            <input type="password" asp-for="Password" placeholder="Password" required>
+            <input type="password" asp-for="ConfirmPassword" placeholder="Confirm Password" required>
+           
+            <span style="color:red;">@ViewData["Error"]</span>
+            <input type="submit" value="Register" id="button">
+        </form>
+    </div>
+</body>
+</html>
