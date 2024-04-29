@@ -1,0 +1,119 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+
+    // Filter events to include only those with dates after today
+    var today = DateTime.Today;
+    var upcomingEvents = new List<Event>(); // Assuming Event is your model type
+    foreach (var eventItem in Model)
+    {
+       
+        if (eventItem.Date >= today)
+        {
+            upcomingEvents.Add(eventItem);
+            if (upcomingEvents.Count >= 4)
+            {
+                break;
+            }
+        }
+    }
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="~/js/site.js"></script>
+    <link rel="stylesheet" href="/css/site.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <div id="carouselExampleCaptions" class="carousel slide mb-5">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="/images/07c8b8f1-ff7f-4d8e-a7b6-171f343201c0_CDF 4 (1)-1649272346.jpg" class=" carusel-img d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Colorday Festival</h5>
+                    <a href="@Url.Action("Details", "Events", new { id = 6 })" class="btn slider-btn glow-on-hover">
+                        Go to Event
+                    </a>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="/images/b15bb5df-863b-45fd-a4c7-769740a371f5_beats.jpg" class="carusel-img d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>BeatsnBrunch by the lake</h5>
+                    <p>5th edition </p>
+                    <a href="@Url.Action("Details", "Events", new { id = 10 })" class="btn slider-btn glow-on-hover">
+                        Go to Event
+                    </a>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    @if (upcomingEvents.Any())
+    {
+        <div class="eventContainer">
+            <div class="row p-3">
+                <h4 class="eventContainerTitle">Upcoming Events</h4>
+                <div class="row">
+                    @foreach (var eventItem in upcomingEvents)
+                    {
+                        <div class="mt-0 col-md-3 mb-4">
+                            <div class="card eventCard bg-dark text-white">
+                                <a href="@Url.Action("Details", "Events", new { id = eventItem.Id })" class="stretched-link"></a>
+                                <a href="@Url.Action("Details", "Events", new { id = eventItem.Id })">
+                                    <img src="~/images/@eventItem.Image" width="350px" height="200px" class="eventPhoto card-img-top" alt="@eventItem.Name">
+                                </a>
+                                <div class="card-img-overlay">
+                                    <h5 class="card-title">@eventItem.Name</h5>
+                                    <p class="card-text">@eventItem.Date.ToShortDateString()</p>
+                                    <!-- Add more properties here if needed -->
+                                </div>
+                            </div>
+                        </div>
+                    }
+                </div>
+                <a class="btn slider-btn glow-on-hover" asp-area="" asp-controller="Events" asp-action="Event">See all events</a>
+            </div>
+        </div>
+    }
+    else
+    {
+        <p>No upcoming events</p>
+    }
+
+
+    <div class="container location">
+        <div class="row">
+            <div class="col pt-3 description text-white">
+                <p>EventEase is your ultimate destination for discovering and attending exciting events happening near you. Whether you're into music festivals, art exhibitions, or sports events, we've got you covered. Our platform connects event organizers with attendees, making it easy to explore, book, and enjoy a wide range of events.</p>
+                <p><strong>Location: </strong> Zogu I Blv, Tirana, Albania</p>
+                <p>Experience the joy of discovering new experiences and creating lasting memories with EventEase. Start exploring today!</p>
+            </div>
+            <div class="col map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23967.089973046488!2d19.819555210359233!3d41.33308687321102!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1350310db0518c2f%3A0x66adc753e7cc308!2sFaculty%20of%20Natural%20Sciences!5e0!3m2!1sen!2s!4v1686340363964!5m2!1sen!2s"
+                        width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
