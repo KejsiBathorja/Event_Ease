@@ -1,0 +1,126 @@
+﻿@model EventEase.Models.Event
+
+@{
+    ViewData["Title"] = "Details";
+}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Details</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            padding: 20px;
+            color: white; /* Ngjyra e tekstit të jetë e bardhë */
+        }
+
+        h1 {
+            text-align: center; /* Vendos h1 në qendër */
+            background-color: darkmagenta; /* Background i h1 të jetë zi */
+            padding: 10px;
+            color: white; /* Ngjyra e tekstit të jetë e bardhë */
+        }
+
+        .blue-background {
+            background-color:darkmagenta; /* Background i elementeve me klasën blue-background të jetë blu */
+            padding: 5px;
+            border-radius: 5px; /* Rrethi i hapsirës së brendshme */
+            margin-bottom: 5px; /* Hapsira poshtë cdo elementi me klasën blue-background */
+        }
+
+
+    </style>
+</head>
+<body>
+<h1>Details</h1>
+
+<div>
+    <h4>Event</h4>
+    <hr />
+    <dl class="row">
+            <dt class="col-sm-2 blue-background">
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+            <dt class="col-sm-2 blue-background">
+            @Html.DisplayNameFor(model => model.Location)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Location)
+        </dd>
+            <dt class="col-sm-2 blue-background">
+            @Html.DisplayNameFor(model => model.TotalTickets)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.TotalTickets)
+        </dd>
+            <dt class="col-sm-2 blue-background">
+            @Html.DisplayNameFor(model => model.AvailableTickets)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.AvailableTickets)
+        </dd>
+            <dt class="col-sm-2 blue-background">
+            @Html.DisplayNameFor(model => model.Price)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Price)
+        </dd>
+
+            <dt class="col-sm-2 blue-background">
+            @Html.DisplayNameFor(model => model.Date)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Date)
+        </dd>
+            <dt class="col-sm-2 blue-background">
+            @Html.DisplayNameFor(model => model.Discription)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Discription)
+        </dd>
+            <dt class="col-sm-2 blue-background">
+            @Html.DisplayNameFor(model => model.Category)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Category.CategoryName)
+        </dd>
+            <dt class="col-sm-2">
+            Image
+        </dt>
+        <dd class="col-sm-10">
+            @if (!string.IsNullOrEmpty(Model.Image))
+            {
+                <img src="~/images/@Model.Image" alt="Event Image" style="max-width: 100%; max-height: 400px;" />
+            }
+            else
+            {
+                <p>No image available</p>
+            }
+        </dd>
+    </dl>
+</div>
+
+
+    <div>
+    <form asp-action="ReserveTicket" asp-controller="Event" method="post">
+        <input type="hidden" name="eventId" value="@Model.Id" />
+        <input type="hidden" name="userEmail" value="user@example.com" /> <!-- Shkruani emailin e përdoruesit këtu -->
+            <a asp-controller="Events" asp-action="ReserveTicket" asp-route-id="@Model.Id" class="btn btn-primary">Reserve Ticket</a>
+
+    </form>
+    </div>
+
+
+
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.Id">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>
+
+</body>
+</html>

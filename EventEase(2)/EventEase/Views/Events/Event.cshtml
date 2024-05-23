@@ -1,0 +1,88 @@
+﻿@model List<EventEase.Models.Event>
+@{
+    ViewData["Title"] = "Event";
+}
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Titulli i Faqes</title>
+    <!-- Lidhja me skedarin CSS -->
+    <link rel="stylesheet" href="~/css/eventee.css">
+
+</head>
+
+<body>
+
+<div class="container mt-5 mb-5">
+        <h2 class="text-danger font-weight-bold font-monospace text-center text-white">Events</h2>
+
+    <form asp-action="Event" asp-controller="Events" method="get" class="mb-4">
+        <div class="form-row align-items-end">
+            <div class="col-md-4">
+
+                <select name="categoryFilter" class="form-control">
+                    <option value="">All Categories</option>
+                    @if (ViewBag.Categories != null)
+                    {
+                        foreach (var category in ViewBag.Categories)
+                        {
+                            var isSelected = category.Value == ViewBag.CategoryFilter.ToString() ? "selected" : "";
+                            <option value="@category.Value" selected="@isSelected">@category.Text</option>
+                        }
+                    }
+                </select>
+            </div>
+            <div class="col-md-2">
+                <button type="submit" class="btn btn-danger">Search</button>
+            </div>
+        </div>
+    </form>
+
+    @if (Model.Count == 0)
+    {
+        <p class="text-danger">@ViewBag.NoItemsMessage</p>
+    }
+    else
+    {
+        <div class="row">
+            @foreach (var item in Model)
+            {
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <a href="@Url.Action("Details", "Events", new { id = item.Id })">
+                            <img src="~/images/@item.Image" width="350px" height="200px" class="eventPhoto card-img-top" alt="@item.Name">
+                        </a>
+                        <div class="card-body">
+                            <h5 class="card-title">@item.Name</h5>
+                            <p class="card-text">@item.Location</p>
+                            <p class="discriptions">@item.Discription</p>
+                            <!-- Add more properties here if needed -->
+                        </div>
+                    </div>
+                </div>
+            }
+
+        </div>
+    }
+</div>
+    @section Scripts {
+        <partial name="_ValidationScriptsPartial" />
+    }
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var descriptionElements = document.querySelectorAll('.discriptions');
+            descriptionElements.forEach(function (element) {
+                var description = element.textContent;
+                var sentences = description.match(/[^\.!\?]+[\.!\?]+/g); // Merr fjalitë nga teksti
+                if (sentences && sentences.length > 0) {
+                    var firstTwoSentences = sentences.slice(0, 2).join(' ');
+                    element.textContent = firstTwoSentences;
+                }
+            });
+        });
+    </script>
+</body>
+</html>

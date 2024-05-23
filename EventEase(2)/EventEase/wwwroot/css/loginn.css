@@ -1,0 +1,70 @@
+.custom-form {
+    width: 50%;
+    background-color: rgba(255, 255, 255, 0.8); /* Përcaktoni një ngjyrë të bardhë transparente */
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Stilizimi i etiketave të fushave */
+.form-floating {
+    position: relative;
+    margin-bottom: 1rem;
+}
+
+    .form-floating label {
+        position: absolute;
+        top: 0;
+        left: 0;
+        opacity: 0.5;
+        transition: all 0.3s ease;
+    }
+
+    .form-floating input:focus ~ label,
+    .form-floating input:not(:placeholder-shown) ~ label {
+        transform: translate(0, -120%);
+        opacity: 1;
+        font-size: 0.85em;
+        color: #000;
+    }
+
+/* Stilizimi i butonit */
+#login-submit {
+    border-radius: 5px;
+}
+
+.login-title {
+    text-align: center; /* Vendos tekstin në qendër */
+}
+
+
+.w-100 btn btn-lg btn-primary {
+    background-color: darkslateblue;
+}
+
+.putt {
+    text-align: center;
+}
+
+#forgot-password {
+    color: darkslateblue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#register {
+    color: darkslateblue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#resend-confirmation {
+    color: darkslateblue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.register-title {
+    text-align: center; /* Vendos tekstin në qendër */
+}
+
+.create {
+    text-align: center;
+}

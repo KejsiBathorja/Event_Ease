@@ -1,0 +1,38 @@
+﻿@model IEnumerable<EventEase.Models.Category>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1 style="color: white; text-align: center;">Index</h1>
+
+<div style="margin: 0 auto; width: fit-content;">
+    <p style="text-align: center;">
+        <a asp-action="Create" style="color: white;">Create New</a>
+    </p>
+    <table class="table" style="margin: 0 auto;">
+        <thead>
+            <tr style="background-color: darkslateblue; color: white;">
+                <th>
+                    @Html.DisplayNameFor(model => model.CategoryName)
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr style="color: white;">
+                    <td>
+                        @Html.DisplayFor(modelItem => item.CategoryName)
+                    </td>
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@item.CategoryId" style="color: white;">Edit</a> |
+                        <a asp-action="Details" asp-route-id="@item.CategoryId" style="color: white;">Details</a> |
+                        <a asp-action="Delete" asp-route-id="@item.CategoryId" style="color: white;">Delete</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

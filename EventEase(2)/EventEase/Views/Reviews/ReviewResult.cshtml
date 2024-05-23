@@ -1,0 +1,22 @@
+﻿@model IEnumerable<EventEase.Models.ReviewModel>
+
+<div class="container mt-5 mb-5">
+    <h2 class="text-danger font-weight-bold">Thank You for Your Review!</h2>
+
+
+    @foreach (var review in Model)
+    {
+        <div class="card mb-3">
+            <div class="card-body">
+                <h5 class="card-title font-weight-bold">@review.Name</h5>
+                <p class="card-text">Rating: @review.Rating</p>
+                <p class="card-text">@review.Message</p>
+            </div>
+        </div>
+    }
+    <div class="col-md-12 text-center">
+        <a asp-action="Index" class="btn btn-danger mb-3">Leave another review</a>
+    </div>
+
+</div>
+

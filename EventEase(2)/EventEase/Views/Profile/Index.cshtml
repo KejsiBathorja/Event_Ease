@@ -1,0 +1,83 @@
+﻿@model EventEase.Models.ProfileViewModel
+
+<!DOCTYPE html>
+<html>
+<head>
+    @{
+        ViewData["Title"] = "Profile";
+    }
+    <style>
+       
+
+        .profilee {
+            text-align: center;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            background-color: #800080; /* Ngjyra lejla */
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        h3 {
+            color: #333;
+        }
+
+        p {
+            color: #666;
+            font-size: 15px;
+        }
+
+        .prof1 {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .prof2 {
+            background-color: #eee;
+            margin: 5px 0;
+            padding: 10px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="profilee">
+        <h2>Profile</h2>
+
+        <p>Welcome, @Model.User.UserName</p>
+        <p>Email: @Model.User.Email</p>
+
+        @if (Model.ReservedEvents != null && Model.ReservedEvents.Any())
+        {
+            <h3>Reserved Events</h3>
+            <ul class="prof1">
+                @foreach (var ev in Model.ReservedEvents)
+                {
+                    <li class="prof2">@ev.Name</li>
+                }
+            </ul>
+        }
+        else if (Model.OrganizedEvents != null && Model.OrganizedEvents.Any())
+        {
+            <h3>Organized Events</h3>
+            <ul class="prof1">
+                @foreach (var ev in Model.OrganizedEvents)
+                {
+                    <li class="prof2">@ev.Name</li>
+                }
+            </ul>
+        }
+        else
+        {
+            <p>No events to display.</p>
+        }
+    </div>
+</body>
+</html>

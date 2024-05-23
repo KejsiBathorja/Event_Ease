@@ -1,0 +1,100 @@
+﻿
+
+@model EventEase.Models.Event
+
+
+@{
+    ViewData["Title"] = "Create";
+}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Titulli i Faqes</title>
+    <!-- Lidhja me skedarin CSS -->
+    <link rel="stylesheet" href="~/css/style-event.css">
+
+</head>
+
+<body>
+
+
+
+    
+    <h3 id="styled-head">Create Event</h3>
+<hr />
+
+<div class="row">
+    <div class="col-md-6">
+        <form asp-action="Create" method="post" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <div class="form-group">
+                <label asp-for="Name" class="control-label">Event Name</label>
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Location" class="control-label">Location</label>
+                <input asp-for="Location" class="form-control" />
+                <span asp-validation-for="Location" class="text-danger"></span>
+            </div>
+
+            <div class="form-group text-white">
+                <label asp-for="Discription" class="control-label">Description</label>
+                <input asp-for="Discription" class="form-control" />
+                <span asp-validation-for="Discription" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Date" class="control-label">Date</label>
+                <input asp-for="Date" class="form-control" value="@DateTime.Now" />
+                <span asp-validation-for="Date" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="CategoryId" class="control-label">Category</label>
+                <select asp-for="CategoryId" class="form-control" asp-items="ViewBag.CategoryId"></select>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="TotalTickets" class="control-label">Total Tickets</label>
+                <input asp-for="TotalTickets" class="form-control" />
+                <span asp-validation-for="TotalTickets" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Price" class="control-label">Price</label>
+                <input asp-for="Price" class="form-control" />
+                <span asp-validation-for="Price" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="OrganizerId" class="control-label">Organizer</label>
+                <select asp-for="OrganizerId" class="form-control" asp-items="ViewBag.OrganizerId"></select>
+            </div>
+
+            <div class="form-group">
+                <label class="control-label">Image</label>
+                <input id="ImageFile" type="file" name="ImageFile" />
+                <span asp-validation-for="ImageFile" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+ 
+    <a class="lis" asp-action="Index">Back to List</a>
+       
+
+
+    @section Scripts {
+        <partial name="_ValidationScriptsPartial" />
+    }
+</body>
+</html>

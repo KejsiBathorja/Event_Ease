@@ -1,0 +1,45 @@
+﻿
+.wrapper {
+    padding: 20px;
+}
+.row{
+    text-align:center;
+}
+
+/* Styling for page-wrapper */
+.page-wrapper {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for page header */
+.page-header {
+    text-align: center;
+    margin-bottom: 40px;
+    color:white;
+}
+
+/* Styling for panels */
+.panel {
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for panel headings */
+.panel-heading {
+    background-color:royalblue;
+    border-radius:5px;
+    padding: 15px;
+}
+.txt{
+    color:white;
+    text-align:center;
+
+}
+.huge {
+    color: white;
+    font-weight: bold;
+}

@@ -1,0 +1,30 @@
+﻿@model Microsoft.AspNetCore.Identity.IdentityRole
+
+<h2>Delete Confirmed</h2>
+
+<h3>Are you sure you want to delete this role?</h3>
+<hr />
+<div>
+    <h4>Role :"@ViewBag.RoleName" </h4>
+
+    @if (ViewBag.UsersInRole != null)
+    {
+        <h4>Users in Role:</h4>
+        <ul>
+            @foreach (var user in ViewBag.UsersInRole)
+            {
+                <li>@user</li>
+            }
+        </ul>
+        <p>These users will be left without a role</p>
+    }
+
+    <form asp-action="DeleteConfirmed" asp-route-id="@ViewBag.RoleId" method="post">
+        @Html.AntiForgeryToken()
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-danger" />
+            <a asp-action="Index">Back to List</a>
+        </div>
+    </form>
+</div>
+

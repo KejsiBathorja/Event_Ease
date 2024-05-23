@@ -1,0 +1,529 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\KEJSI BATHORJA\\OneDrive\\Desktop\\EventEase(2)\\EventEase\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\EventEase.bundle.scp.css",
+      "PackagePath": "staticwebassets\\EventEase.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\KEJSI BATHORJA\\OneDrive\\Desktop\\EventEase(2)\\EventEase\\wwwroot\\css\\admin.css",
+      "PackagePath": "staticwebassets\\css\\admin.css"
+    },
+    {
+      "Id": "C:\\Users\\KEJSI BATHORJA\\OneDrive\\Desktop\\EventEase(2)\\EventEase\\wwwroot\\css\\eventee.css",
+      "PackagePath": "staticwebassets\\css\\eventee.css"
+    },
+    {
+      "Id": "C:\\Users\\KEJSI BATHORJA\\OneDrive\\Desktop\\EventEase(2)\\EventEase\\wwwroot\\css\\loginn.css",
+      "PackagePath": "staticwebassets\\css\\loginn.css"
+    },
+    {
+      "Id": "C:\\Users\\KEJSI BATHORJA\\OneDrive\\Desktop\\EventEase(2)\\EventEase\\wwwroot\\css\\revieww.css",
+      "PackagePath": "staticwebassets\\css\\revieww.css"
+    },
+    {
+      "Id": "C:\\Users\\KEJSI BATHORJA\\OneDrive\\Desktop\\EventEase(2)\\EventEase\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\KEJSI BATHORJA\\OneDrive\\Desktop\\EventEase(2)\\EventEase\\wwwroot\\css\\style-event.css",
+      "PackagePath": "staticwebassets\\css\\style-event.css"
+    },
+    {
+      "Id": "C:\\Users\\KEJSI BATHORJA\\OneDrive\\Desktop\\EventEase(2)\\EventEase\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\KEJSI BATHORJA\\OneDrive\\Desktop\\EventEase(2)\\EventEase\\wwwroot\\images\\0e577039-be7b-4c02-a857-582acafa1c13_Ceremoni1.jpg",
+      "PackagePath": "staticwebassets\\images\\0e577039-be7b-4c02-a857-582acafa1c13_Ceremoni1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\KEJSI BATHORJA\\OneDrive\\Desktop\\EventEase(2)\\EventEase\\wwwroot\\images\\0e613994-dbdf-42bd-8d5c-35f8fee88fc7_Concert4.jpg",
+      "PackagePath": "staticwebassets\\images\\0e613994-dbdf-42bd-8d5c-35f8fee88fc7_Concert4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\KEJSI BATHORJA\\OneDrive\\Desktop\\EventEase(2)\\EventEase\\wwwroot\\images\\0f4986fe-4d53-4f68-98b7-325d6b921bb2_Festival2.jpg",
+      "PackagePath": "staticwebassets\\images\\0f4986fe-4d53-4f68-98b7-325d6b921bb2_Festival2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\KEJSI BATHORJA\\OneDrive\\Desktop\\EventEase(2)\\EventEase\\wwwroot\\images\\0f5cbc2c-53eb-4334-b1bd-4a51d45561ad_Sport5.jpg",
+      "PackagePath": "staticwebassets\\images\\0f5cbc2c-53eb-4334-b1bd-4a51d45561ad_Sport5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\KEJSI BATHORJA\\OneDrive\\Desktop\\EventEase(2)\\EventEase\\wwwroot\\images\\1a2f79a7-a225-471e-86be-29f228e28ccf_Art3.jpg",
+      "PackagePath": "staticwebassets\\images\\1a2f79a7-a225-471e-86be-29f228e28ccf_Art3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\KEJSI BATHORJA\\OneDrive\\Desktop\\EventEase(2)\\EventEase\\wwwroot\\images\\218acf25-88c6-44b1-bd8e-509b0e6aa2b4_Ceremoni5.jpg",
+      "PackagePath": "staticwebassets\\images\\218acf25-88c6-44b1-bd8e-509b0e6aa2b4_Ceremoni5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\KEJSI BATHORJA\\OneDrive\\Desktop\\EventEase(2)\\EventEase\\wwwroot\\images\\230239b8-bf45-4df0-a27c-529616410bf9_Festival3.jpg",
+      "PackagePath": "staticwebassets\\images\\230239b8-bf45-4df0-a27c-529616410bf9_Festival3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\KEJSI BATHORJA\\OneDrive\\Desktop\\EventEase(2)\\EventEase\\wwwroot\\images\\2567743f-0ccf-4909-a0f9-f3589fe903a8_Festival1.jpg",
+      "PackagePath": "staticwebassets\\images\\2567743f-0ccf-4909-a0f9-f3589fe903a8_Festival1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\KEJSI BATHORJA\\OneDrive\\Desktop\\EventEase(2)\\EventEase\\wwwroot\\images\\2750d0a2-449d-4c47-b596-695b3de20a8b_Art1.jpg",
+      "PackagePath": "staticwebassets\\images\\2750d0a2-449d-4c47-b596-695b3de20a8b_Art1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\KEJSI BATHORJA\\OneDrive\\Desktop\\EventEase(2)\\EventEase\\wwwroot\\images\\2b0e01f5-06c1-43dc-b8f6-ad52f769c884_Ceremoni3.jpg",
+      "PackagePath": "staticwebassets\\images\\2b0e01f5-06c1-43dc-b8f6-ad52f769c884_Ceremoni3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\KEJSI BATHORJA\\OneDrive\\Desktop\\EventEase(2)\\EventEase\\wwwroot\\images\\2d7e8b00-f490-47d3-89a7-1093635a00ac_Ceremoni2.jpg",
+      "PackagePath": "staticwebassets\\images\\2d7e8b00-f490-47d3-89a7-1093635a00ac_Ceremoni2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\KEJSI BATHORJA\\OneDrive\\Desktop\\EventEase(2)\\EventEase\\wwwroot\\images\\3a3e3a23-f02d-4638-be1c-c8b368055ac1_Sport3.jpg",
+      "PackagePath": "staticwebassets\\images\\3a3e3a23-f02d-4638-be1c-c8b368055ac1_Sport3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\KEJSI BATHORJA\\OneDrive\\Desktop\\EventEase(2)\\EventEase\\wwwroot\\images\\3afbcfa4-9508-443f-b121-7a157718bdb8_Charity3.jpg",
+      "PackagePath": "staticwebassets\\images\\3afbcfa4-9508-443f-b121-7a157718bdb8_Charity3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\KEJSI BATHORJA\\OneDrive\\Desktop\\EventEase(2)\\EventEase\\wwwroot\\images\\3fc617d1-f17d-46a9-a321-169146f65f59_Sport4.jpg",
+      "PackagePath": "staticwebassets\\images\\3fc617d1-f17d-46a9-a321-169146f65f59_Sport4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\KEJSI BATHORJA\\OneDrive\\Desktop\\EventEase(2)\\EventEase\\wwwroot\\images\\42fb43ee-dd4b-4eb3-b6b8-abc1b61ac082_Charity5.jpg",
+      "PackagePath": "staticwebassets\\images\\42fb43ee-dd4b-4eb3-b6b8-abc1b61ac082_Charity5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\KEJSI BATHORJA\\OneDrive\\Desktop\\EventEase(2)\\EventEase\\wwwroot\\images\\48407cc7-9b6f-46c1-92a9-eb9738aaecbf_Art4.jpg",
+      "PackagePath": "staticwebassets\\images\\48407cc7-9b6f-46c1-92a9-eb9738aaecbf_Art4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\KEJSI BATHORJA\\OneDrive\\Desktop\\EventEase(2)\\EventEase\\wwwroot\\images\\4bb41976-8872-41a1-901a-962ee617b1e7_Charity4.jpg",
+      "PackagePath": "staticwebassets\\images\\4bb41976-8872-41a1-901a-962ee617b1e7_Charity4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\KEJSI BATHORJA\\OneDrive\\Desktop\\EventEase(2)\\EventEase\\wwwroot\\images\\4ebebe0b-e5b5-42a2-bbb1-4d3a547e8555_Ceremoni4.jpg",
+      "PackagePath": "staticwebassets\\images\\4ebebe0b-e5b5-42a2-bbb1-4d3a547e8555_Ceremoni4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\KEJSI BATHORJA\\OneDrive\\Desktop\\EventEase(2)\\EventEase\\wwwroot\\images\\4fbea46d-151b-4e1f-a37a-2763553bd4ea_Ceremoni1.jpg",
+      "PackagePath": "staticwebassets\\images\\4fbea46d-151b-4e1f-a37a-2763553bd4ea_Ceremoni1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\KEJSI BATHORJA\\OneDrive\\Desktop\\EventEase(2)\\EventEase\\wwwroot\\images\\4fcc66a8-8670-40c0-a00a-39598bda2fdf_Art3.jpg",
+      "PackagePath": "staticwebassets\\images\\4fcc66a8-8670-40c0-a00a-39598bda2fdf_Art3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\KEJSI BATHORJA\\OneDrive\\Desktop\\EventEase(2)\\EventEase\\wwwroot\\images\\590dccd8-d154-4990-8da4-af1f8af09621_Festival3.jpg",
+      "PackagePath": "staticwebassets\\images\\590dccd8-d154-4990-8da4-af1f8af09621_Festival3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\KEJSI BATHORJA\\OneDrive\\Desktop\\EventEase(2)\\EventEase\\wwwroot\\images\\5c05d561-87eb-4f86-9d38-9ab0d8abad9e_Charity2.jpg",
+      "PackagePath": "staticwebassets\\images\\5c05d561-87eb-4f86-9d38-9ab0d8abad9e_Charity2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\KEJSI BATHORJA\\OneDrive\\Desktop\\EventEase(2)\\EventEase\\wwwroot\\images\\68f73d75-c514-4cd3-a6a0-4383253622fd_Concert3.jpg",
+      "PackagePath": "staticwebassets\\images\\68f73d75-c514-4cd3-a6a0-4383253622fd_Concert3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\KEJSI BATHORJA\\OneDrive\\Desktop\\EventEase(2)\\EventEase\\wwwroot\\images\\6dd4a30e-356b-4161-b5cf-529fc52d8bef_Charity4.jpg",
+      "PackagePath": "staticwebassets\\images\\6dd4a30e-356b-4161-b5cf-529fc52d8bef_Charity4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\KEJSI BATHORJA\\OneDrive\\Desktop\\EventEase(2)\\EventEase\\wwwroot\\images\\6f4559e7-c126-41de-acfd-599904711ae0_Ceremoni2.jpg",
+      "PackagePath": "staticwebassets\\images\\6f4559e7-c126-41de-acfd-599904711ae0_Ceremoni2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\KEJSI BATHORJA\\OneDrive\\Desktop\\EventEase(2)\\EventEase\\wwwroot\\images\\76a032cf-7b9b-484d-9530-71e8c1f835c7_event1.jpg",
+      "PackagePath": "staticwebassets\\images\\76a032cf-7b9b-484d-9530-71e8c1f835c7_event1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\KEJSI BATHORJA\\OneDrive\\Desktop\\EventEase(2)\\EventEase\\wwwroot\\images\\78073209-58aa-4dee-b7a2-18d4d2e40cca_Concert2.jpg",
+      "PackagePath": "staticwebassets\\images\\78073209-58aa-4dee-b7a2-18d4d2e40cca_Concert2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\KEJSI BATHORJA\\OneDrive\\Desktop\\EventEase(2)\\EventEase\\wwwroot\\images\\8097244f-9e19-47b5-a229-c9349e127a01_Concert5.jpg",
+      "PackagePath": "staticwebassets\\images\\8097244f-9e19-47b5-a229-c9349e127a01_Concert5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\KEJSI BATHORJA\\OneDrive\\Desktop\\EventEase(2)\\EventEase\\wwwroot\\images\\80c5aaa8-3838-4e7b-993d-84f584c14957_Sport2.jpg",
+      "PackagePath": "staticwebassets\\images\\80c5aaa8-3838-4e7b-993d-84f584c14957_Sport2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\KEJSI BATHORJA\\OneDrive\\Desktop\\EventEase(2)\\EventEase\\wwwroot\\images\\92a5cc75-4d7b-4e9b-8c40-4ca3469a8458_Sport4.jpg",
+      "PackagePath": "staticwebassets\\images\\92a5cc75-4d7b-4e9b-8c40-4ca3469a8458_Sport4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\KEJSI BATHORJA\\OneDrive\\Desktop\\EventEase(2)\\EventEase\\wwwroot\\images\\960c35d0-9913-490a-8487-825f2419172e_Concert2.jpg",
+      "PackagePath": "staticwebassets\\images\\960c35d0-9913-490a-8487-825f2419172e_Concert2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\KEJSI BATHORJA\\OneDrive\\Desktop\\EventEase(2)\\EventEase\\wwwroot\\images\\9c82fc3c-34d7-4bf7-bdeb-cc7680530364_Sport1.jpg",
+      "PackagePath": "staticwebassets\\images\\9c82fc3c-34d7-4bf7-bdeb-cc7680530364_Sport1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\KEJSI BATHORJA\\OneDrive\\Desktop\\EventEase(2)\\EventEase\\wwwroot\\images\\9d2fd73a-ca3a-42d1-9fd5-1a62b926f317_Concert4.jpg",
+      "PackagePath": "staticwebassets\\images\\9d2fd73a-ca3a-42d1-9fd5-1a62b926f317_Concert4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\KEJSI BATHORJA\\OneDrive\\Desktop\\EventEase(2)\\EventEase\\wwwroot\\images\\a46941a7-710b-4a79-afb9-2ac7202aed8f_Festival2.jpg",
+      "PackagePath": "staticwebassets\\images\\a46941a7-710b-4a79-afb9-2ac7202aed8f_Festival2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\KEJSI BATHORJA\\OneDrive\\Desktop\\EventEase(2)\\EventEase\\wwwroot\\images\\a61429f9-0e9c-4392-b94e-2ed7f7a0c411_Art2.jpg",
+      "PackagePath": "staticwebassets\\images\\a61429f9-0e9c-4392-b94e-2ed7f7a0c411_Art2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\KEJSI BATHORJA\\OneDrive\\Desktop\\EventEase(2)\\EventEase\\wwwroot\\images\\b2b8bcf0-7903-4ec0-8117-408779c7db92_Festival5.jpg",
+      "PackagePath": "staticwebassets\\images\\b2b8bcf0-7903-4ec0-8117-408779c7db92_Festival5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\KEJSI BATHORJA\\OneDrive\\Desktop\\EventEase(2)\\EventEase\\wwwroot\\images\\b75f2313-d1af-4050-af2c-821c71b64898_Art2.jpg",
+      "PackagePath": "staticwebassets\\images\\b75f2313-d1af-4050-af2c-821c71b64898_Art2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\KEJSI BATHORJA\\OneDrive\\Desktop\\EventEase(2)\\EventEase\\wwwroot\\images\\back.jpg",
+      "PackagePath": "staticwebassets\\images\\back.jpg"
+    },
+    {
+      "Id": "C:\\Users\\KEJSI BATHORJA\\OneDrive\\Desktop\\EventEase(2)\\EventEase\\wwwroot\\images\\back2.jpg",
+      "PackagePath": "staticwebassets\\images\\back2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\KEJSI BATHORJA\\OneDrive\\Desktop\\EventEase(2)\\EventEase\\wwwroot\\images\\bb0d2aa1-1b39-4485-8781-a52c295d11b2_Charity5.jpg",
+      "PackagePath": "staticwebassets\\images\\bb0d2aa1-1b39-4485-8781-a52c295d11b2_Charity5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\KEJSI BATHORJA\\OneDrive\\Desktop\\EventEase(2)\\EventEase\\wwwroot\\images\\c12dcc64-b84c-472f-aa98-606a589b8b80_Festival1.jpg",
+      "PackagePath": "staticwebassets\\images\\c12dcc64-b84c-472f-aa98-606a589b8b80_Festival1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\KEJSI BATHORJA\\OneDrive\\Desktop\\EventEase(2)\\EventEase\\wwwroot\\images\\c725633c-1255-4606-8435-3c4dff254af7_Sport1.jpg",
+      "PackagePath": "staticwebassets\\images\\c725633c-1255-4606-8435-3c4dff254af7_Sport1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\KEJSI BATHORJA\\OneDrive\\Desktop\\EventEase(2)\\EventEase\\wwwroot\\images\\cc74c528-7a07-4981-a963-36a3b01714c1_Festival1.jpg",
+      "PackagePath": "staticwebassets\\images\\cc74c528-7a07-4981-a963-36a3b01714c1_Festival1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\KEJSI BATHORJA\\OneDrive\\Desktop\\EventEase(2)\\EventEase\\wwwroot\\images\\ccdfe088-4b4e-4d15-b4ce-31cd9076b603_Concert1.jpg",
+      "PackagePath": "staticwebassets\\images\\ccdfe088-4b4e-4d15-b4ce-31cd9076b603_Concert1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\KEJSI BATHORJA\\OneDrive\\Desktop\\EventEase(2)\\EventEase\\wwwroot\\images\\d013dd64-52e0-4203-b1d2-b1b836649b8f_Ceremoni4.jpg",
+      "PackagePath": "staticwebassets\\images\\d013dd64-52e0-4203-b1d2-b1b836649b8f_Ceremoni4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\KEJSI BATHORJA\\OneDrive\\Desktop\\EventEase(2)\\EventEase\\wwwroot\\images\\d7fc8e53-5b4a-4771-8f64-d440b61b8d63_Festival4.jpg",
+      "PackagePath": "staticwebassets\\images\\d7fc8e53-5b4a-4771-8f64-d440b61b8d63_Festival4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\KEJSI BATHORJA\\OneDrive\\Desktop\\EventEase(2)\\EventEase\\wwwroot\\images\\d98ecf26-4a00-4e9d-981e-84f0012cfe70_Festival4.jpg",
+      "PackagePath": "staticwebassets\\images\\d98ecf26-4a00-4e9d-981e-84f0012cfe70_Festival4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\KEJSI BATHORJA\\OneDrive\\Desktop\\EventEase(2)\\EventEase\\wwwroot\\images\\dac1d606-11fd-45aa-9e3c-925f22953efc_Art1.jpg",
+      "PackagePath": "staticwebassets\\images\\dac1d606-11fd-45aa-9e3c-925f22953efc_Art1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\KEJSI BATHORJA\\OneDrive\\Desktop\\EventEase(2)\\EventEase\\wwwroot\\images\\de0e44ba-a61d-415b-ad33-bdc40a6cc61b_Charity2.jpg",
+      "PackagePath": "staticwebassets\\images\\de0e44ba-a61d-415b-ad33-bdc40a6cc61b_Charity2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\KEJSI BATHORJA\\OneDrive\\Desktop\\EventEase(2)\\EventEase\\wwwroot\\images\\df4af1b9-852e-416a-adb3-70bd30b17436_Art4.jpg",
+      "PackagePath": "staticwebassets\\images\\df4af1b9-852e-416a-adb3-70bd30b17436_Art4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\KEJSI BATHORJA\\OneDrive\\Desktop\\EventEase(2)\\EventEase\\wwwroot\\images\\e4f0bf38-999c-431f-a2fc-9f5f0bf8c164_Charity3.jpg",
+      "PackagePath": "staticwebassets\\images\\e4f0bf38-999c-431f-a2fc-9f5f0bf8c164_Charity3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\KEJSI BATHORJA\\OneDrive\\Desktop\\EventEase(2)\\EventEase\\wwwroot\\images\\e6f28e58-ff30-4952-a427-980ef7923751_Concert1.jpg",
+      "PackagePath": "staticwebassets\\images\\e6f28e58-ff30-4952-a427-980ef7923751_Concert1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\KEJSI BATHORJA\\OneDrive\\Desktop\\EventEase(2)\\EventEase\\wwwroot\\images\\e7d1861e-53f0-4e20-80ee-96d2e923e212_Ceremoni3.jpg",
+      "PackagePath": "staticwebassets\\images\\e7d1861e-53f0-4e20-80ee-96d2e923e212_Ceremoni3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\KEJSI BATHORJA\\OneDrive\\Desktop\\EventEase(2)\\EventEase\\wwwroot\\images\\e94b8da3-b14a-442f-80e9-466c40706cbb_Sport3.jpg",
+      "PackagePath": "staticwebassets\\images\\e94b8da3-b14a-442f-80e9-466c40706cbb_Sport3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\KEJSI BATHORJA\\OneDrive\\Desktop\\EventEase(2)\\EventEase\\wwwroot\\images\\f170a0a0-cdf8-4595-90a4-6681acb9292d_Concert3.jpg",
+      "PackagePath": "staticwebassets\\images\\f170a0a0-cdf8-4595-90a4-6681acb9292d_Concert3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\KEJSI BATHORJA\\OneDrive\\Desktop\\EventEase(2)\\EventEase\\wwwroot\\images\\fe0260c0-17bf-4cb0-8334-27386b7ee83c_Sport2.jpg",
+      "PackagePath": "staticwebassets\\images\\fe0260c0-17bf-4cb0-8334-27386b7ee83c_Sport2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\KEJSI BATHORJA\\OneDrive\\Desktop\\EventEase(2)\\EventEase\\wwwroot\\images\\loginin.jpg",
+      "PackagePath": "staticwebassets\\images\\loginin.jpg"
+    },
+    {
+      "Id": "C:\\Users\\KEJSI BATHORJA\\OneDrive\\Desktop\\EventEase(2)\\EventEase\\wwwroot\\images\\wallpaper.jpg",
+      "PackagePath": "staticwebassets\\images\\wallpaper.jpg"
+    },
+    {
+      "Id": "C:\\Users\\KEJSI BATHORJA\\OneDrive\\Desktop\\EventEase(2)\\EventEase\\wwwroot\\images\\why1.jpg",
+      "PackagePath": "staticwebassets\\images\\why1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\KEJSI BATHORJA\\OneDrive\\Desktop\\EventEase(2)\\EventEase\\wwwroot\\images\\why2.jpg",
+      "PackagePath": "staticwebassets\\images\\why2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\KEJSI BATHORJA\\OneDrive\\Desktop\\EventEase(2)\\EventEase\\wwwroot\\images\\why3.jpg",
+      "PackagePath": "staticwebassets\\images\\why3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\KEJSI BATHORJA\\OneDrive\\Desktop\\EventEase(2)\\EventEase\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\KEJSI BATHORJA\\OneDrive\\Desktop\\EventEase(2)\\EventEase\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\KEJSI BATHORJA\\OneDrive\\Desktop\\EventEase(2)\\EventEase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\KEJSI BATHORJA\\OneDrive\\Desktop\\EventEase(2)\\EventEase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\KEJSI BATHORJA\\OneDrive\\Desktop\\EventEase(2)\\EventEase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\KEJSI BATHORJA\\OneDrive\\Desktop\\EventEase(2)\\EventEase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\KEJSI BATHORJA\\OneDrive\\Desktop\\EventEase(2)\\EventEase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\KEJSI BATHORJA\\OneDrive\\Desktop\\EventEase(2)\\EventEase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\KEJSI BATHORJA\\OneDrive\\Desktop\\EventEase(2)\\EventEase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\KEJSI BATHORJA\\OneDrive\\Desktop\\EventEase(2)\\EventEase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\KEJSI BATHORJA\\OneDrive\\Desktop\\EventEase(2)\\EventEase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\KEJSI BATHORJA\\OneDrive\\Desktop\\EventEase(2)\\EventEase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\KEJSI BATHORJA\\OneDrive\\Desktop\\EventEase(2)\\EventEase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\KEJSI BATHORJA\\OneDrive\\Desktop\\EventEase(2)\\EventEase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\KEJSI BATHORJA\\OneDrive\\Desktop\\EventEase(2)\\EventEase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\KEJSI BATHORJA\\OneDrive\\Desktop\\EventEase(2)\\EventEase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\KEJSI BATHORJA\\OneDrive\\Desktop\\EventEase(2)\\EventEase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\KEJSI BATHORJA\\OneDrive\\Desktop\\EventEase(2)\\EventEase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\KEJSI BATHORJA\\OneDrive\\Desktop\\EventEase(2)\\EventEase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\KEJSI BATHORJA\\OneDrive\\Desktop\\EventEase(2)\\EventEase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\KEJSI BATHORJA\\OneDrive\\Desktop\\EventEase(2)\\EventEase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\KEJSI BATHORJA\\OneDrive\\Desktop\\EventEase(2)\\EventEase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\KEJSI BATHORJA\\OneDrive\\Desktop\\EventEase(2)\\EventEase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\KEJSI BATHORJA\\OneDrive\\Desktop\\EventEase(2)\\EventEase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\KEJSI BATHORJA\\OneDrive\\Desktop\\EventEase(2)\\EventEase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\KEJSI BATHORJA\\OneDrive\\Desktop\\EventEase(2)\\EventEase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\KEJSI BATHORJA\\OneDrive\\Desktop\\EventEase(2)\\EventEase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\KEJSI BATHORJA\\OneDrive\\Desktop\\EventEase(2)\\EventEase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\KEJSI BATHORJA\\OneDrive\\Desktop\\EventEase(2)\\EventEase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\KEJSI BATHORJA\\OneDrive\\Desktop\\EventEase(2)\\EventEase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\KEJSI BATHORJA\\OneDrive\\Desktop\\EventEase(2)\\EventEase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\KEJSI BATHORJA\\OneDrive\\Desktop\\EventEase(2)\\EventEase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\KEJSI BATHORJA\\OneDrive\\Desktop\\EventEase(2)\\EventEase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\KEJSI BATHORJA\\OneDrive\\Desktop\\EventEase(2)\\EventEase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\KEJSI BATHORJA\\OneDrive\\Desktop\\EventEase(2)\\EventEase\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\KEJSI BATHORJA\\OneDrive\\Desktop\\EventEase(2)\\EventEase\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\KEJSI BATHORJA\\OneDrive\\Desktop\\EventEase(2)\\EventEase\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\KEJSI BATHORJA\\OneDrive\\Desktop\\EventEase(2)\\EventEase\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\KEJSI BATHORJA\\OneDrive\\Desktop\\EventEase(2)\\EventEase\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\KEJSI BATHORJA\\OneDrive\\Desktop\\EventEase(2)\\EventEase\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\KEJSI BATHORJA\\OneDrive\\Desktop\\EventEase(2)\\EventEase\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\KEJSI BATHORJA\\OneDrive\\Desktop\\EventEase(2)\\EventEase\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\KEJSI BATHORJA\\OneDrive\\Desktop\\EventEase(2)\\EventEase\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\KEJSI BATHORJA\\OneDrive\\Desktop\\EventEase(2)\\EventEase\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\KEJSI BATHORJA\\OneDrive\\Desktop\\EventEase(2)\\EventEase\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\KEJSI BATHORJA\\OneDrive\\Desktop\\EventEase(2)\\EventEase\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\KEJSI BATHORJA\\OneDrive\\Desktop\\EventEase(2)\\EventEase\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\KEJSI BATHORJA\\OneDrive\\Desktop\\EventEase(2)\\EventEase\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\KEJSI BATHORJA\\OneDrive\\Desktop\\EventEase(2)\\EventEase\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\KEJSI BATHORJA\\OneDrive\\Desktop\\EventEase(2)\\EventEase\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\KEJSI BATHORJA\\OneDrive\\Desktop\\EventEase(2)\\EventEase\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\KEJSI BATHORJA\\OneDrive\\Desktop\\EventEase(2)\\EventEase\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\KEJSI BATHORJA\\OneDrive\\Desktop\\EventEase(2)\\EventEase\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\KEJSI BATHORJA\\OneDrive\\Desktop\\EventEase(2)\\EventEase\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\KEJSI BATHORJA\\OneDrive\\Desktop\\EventEase(2)\\EventEase\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\KEJSI BATHORJA\\OneDrive\\Desktop\\EventEase(2)\\EventEase\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\KEJSI BATHORJA\\OneDrive\\Desktop\\EventEase(2)\\EventEase\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\KEJSI BATHORJA\\OneDrive\\Desktop\\EventEase(2)\\EventEase\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.EventEase.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.EventEase.props",
+      "PackagePath": "build\\EventEase.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.EventEase.props",
+      "PackagePath": "buildMultiTargeting\\EventEase.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.EventEase.props",
+      "PackagePath": "buildTransitive\\EventEase.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,64 @@
+﻿@model EventEase.Models.ReviewModel
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Titulli i Faqes</title>
+    <!-- Lidhja me skedarin CSS -->
+    <link rel="stylesheet" href="~/css/revieww.css"> 
+
+</head>
+
+<body>
+
+<div class="container mt-5">
+    <h1 class="text-white font-weight-bold text-center">Leave a Review</h1>
+
+    <!-- Forma e komentit -->
+    <form asp-action="Index" method="post">
+        <div class="form-group">
+            <label asp-for="Name" class="font-weight-bold text-light-pink">Name:</label>
+            <input asp-for="Name" class="form-control" required />
+            <span asp-validation-for="Name" class="text-light-pink"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="Email" class="font-weight-bold text-light-pink">Email:</label>
+            <input asp-for="Email" type="email" class="form-control" required />
+            <span asp-validation-for="Email" class="text-light-pink"></span>
+        </div>
+
+        <div class="form-group">
+            <label class="font-weight-bold text-light-pink">Rating:</label>
+            <div>
+                @for (var i = 1; i <= 5; i++)
+                {
+                    <input type="radio" id="Rating-@i" name="Rating" value="@i" required />
+                    <label class="rat" for="Rating-@i">@i</label>
+                }
+            </div>
+            <span asp-validation-for="Rating" class="text-light-pink" text-white ></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="Message" class="font-weight-bold text-light-pink">Message:</label>
+            <textarea asp-for="Message" class="form-control" required></textarea>
+            <span asp-validation-for="Message" class="text-light-pink"></span>
+        </div>
+
+        <div class="col-md-12 mt-0 text-center">
+            <button type="submit" class="buton ">Send</button>
+        </div>
+    </form>
+</div>
+
+
+        
+    
+    @section Scripts {
+        <partial name="_ValidationScriptsPartial" />
+    }
+
+</body>
+</html>

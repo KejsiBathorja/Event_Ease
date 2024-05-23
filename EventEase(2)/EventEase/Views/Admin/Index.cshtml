@@ -1,0 +1,125 @@
+﻿@model EventEase.Models.AdminDashboard
+@{
+    ViewData["Title"] = "Admin Panel";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>@ViewData["Title"]</title>
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link href="~/css/admin.css" rel="stylesheet"> <!-- Referenca për skedarin CSS -->
+    <link href="~/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+</head>
+
+<body>
+    <div id="wrapper">
+        <div id="page-wrapper">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h1 class="page-header">Welcome Admin To Dashboard</h1>
+                        <div class="row">
+                            <div class="col-lg-3 col-md-6">
+                                <div class="panel panel-red">
+                                    <div class="panel-heading">
+                                        <div class="row">
+                                            <div class="col-xs-3">
+                                                <i class="fa fa-file-text fa-5x"></i>
+                                            </div>
+                                            <div class="col-xs-9 text-right">
+                                                <div class="huge  text-white ">@Model.perdoruesit</div>
+                                                <div class="txt">Registrated Users</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <a asp-area="" asp-controller="RoleAdmin" asp-action="Index">
+                                        <div class="panel-footer">
+                                            <span class="pull-left">View Details</span>
+                                            <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+                                            <div class="clearfix"></div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-3 col-md-6">
+                                <div class="panel panel-yellow">
+                                    <div class="panel-heading">
+                                        <div class="row">
+                                            <div class="col-xs-3">
+                                                <i class="fa fa-user fa-5x"></i>
+                                            </div>
+                                            <div class="col-xs-9 text-right">
+                                                <div class="huge text-white">@Model.eventet</div>
+                                                <div class="txt">Events</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <a asp-area="" asp-controller="Events" asp-action="Index">
+                                        <div class="panel-footer">
+                                            <span class="pull-left">View Details</span>
+                                            <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+                                            <div class="clearfix"></div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-3 col-md-6">
+                                <div class="panel panel-red">
+                                    <div class="panel-heading">
+                                        <div class="row">
+                                            <div class="col-xs-3">
+                                                <i class="fa fa-list fa-5x"></i>
+                                            </div>
+                                            <div class="col-xs-9 text-right">
+                                                <div class="huge text-white ">@Model.organizatoret</div>
+                                                <div class="txt">Organizers</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <a asp-area="" asp-controller="Organizers" asp-action="Index">
+                                        <div class="panel-footer">
+                                            <span class="pull-left">View Details</span>
+                                            <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+                                            <div class="clearfix"></div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-3 col-md-6">
+                                <div class="panel panel-yellow">
+                                    <div class="panel-heading">
+                                        <div class="row">
+                                            <div class="col-xs-3">
+                                                <i class="fa fa-user fa-5x"></i>
+                                            </div>
+                                            <div class="col-xs-9 text-right">
+                                                <div class="huge text-white ">@Model.categorit</div>
+                                                <div class="txt">Categories</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <a asp-area="" asp-controller="Categories" asp-action="Index">
+                                        <div class="panel-footer">
+                                            <span class="pull-left">View Details</span>
+                                            <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+                                            <div class="clearfix"></div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

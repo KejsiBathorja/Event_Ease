@@ -1,0 +1,67 @@
+﻿@model EventEase.Models.Category
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<style>
+    /* Center align text and make it white */
+    h1, h4, label, .text-danger {
+        color: #fff;
+        text-align: center;
+    }
+
+    /* Semi-transparent buttons */
+    .btn-transparent {
+        background-color: rgba(255, 255, 255, 0.5); /* Semi-transparent white */
+        border: 1px solid #fff; /* White border */
+        color: #fff; /* Text color */
+        margin-top: 20px; /* Add margin to top */
+        padding: 10px 20px; /* Padding for button */
+        border-radius: 5px; /* Rounded corners */
+        display: inline-block; /* Display as inline block */
+        text-decoration: none; /* Remove underline */
+    }
+
+        .btn-transparent:hover {
+            background-color: rgba(255, 255, 255, 0.7); /* Lighter semi-transparent white on hover */
+        }
+</style>
+
+<h1>Edit</h1>
+
+<h4>Category</h4>
+<hr />
+<div class="container">
+    <div class="row">
+        <div class="col-md-4 offset-md-4">
+            <form asp-action="Edit">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <input type="hidden" asp-for="CategoryId" />
+                <div class="form-group">
+                    <label asp-for="CategoryName" class="control-label"></label>
+                    <input asp-for="CategoryName" class="form-control" />
+                    <span asp-validation-for="CategoryName" class="text-danger"></span>
+                </div>
+                <br />
+                <div class="form-group">
+                    <input type="submit" value="Save" class="btn btn-transparent" />
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-4 offset-md-4">
+            <a asp-action="Index" class="btn btn-transparent">Back to List</a>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

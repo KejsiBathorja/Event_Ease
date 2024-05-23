@@ -1,0 +1,91 @@
+﻿@model EventEase.Models.Event
+<head>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: white;
+            padding: 20px;
+        }
+
+        h2 {
+            text-align: center;
+            padding: 10px 0; 
+            margin: 0; 
+            background-color: darkblue;
+        }
+
+            h2::before,
+            h2::after {
+                content: ''; 
+                display: block; 
+                height: 20px; 
+                margin-top: -20px; 
+                background-color: darkblue; 
+            }
+
+
+        .form-container {
+            background-color: rgba(0, 0, 0, 0.7); 
+            padding: 20px;
+            border-radius: 10px;
+            width: 50%;
+            margin: auto; 
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+            .form-group label {
+                color: white;
+            }
+
+            .form-group input[type="number"],
+            .form-group input[type="text"] {
+                width: 100%;
+                padding: 10px;
+                border: 1px solid #ccc;
+                border-radius: 5px;
+            }
+
+        .btn-primary {
+            background-color: #0056b3;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+            .btn-primary:hover {
+                background-color: #004080;
+            }
+
+    </style>
+</head>
+<h2>Tickets Reservation for @Model.Name</h2>
+
+<p><strong>Event's Name:</strong> @Model.Name</p>
+<p><strong>Event's Location:</strong> @Model.Location</p>
+<p><strong>Event's Date:</strong> @Model.Date.ToShortDateString()</p>
+<p><strong>Event's Price':</strong> @Model.Price</p>
+<p><strong>Avilable Tickets:</strong> @Model.AvailableTickets</p>
+
+<hr />
+
+<form asp-action="ConfirmReservation" method="post">
+    <input type="hidden" name="eventId" value="@Model.Id" />
+
+    <div class="form-group">
+        <label for="numTickets">Choose the number of Tickets:</label>
+        <input type="number" class="form-control" id="numTickets" name="numTickets" min="1" max="@Model.AvailableTickets" required />
+    </div>
+    <div class="form-group">
+        <label for="UserEmail">Email:</label>
+        <input type="text" class="form-control" id="UserEmail" name="UserEmail" required />
+    </div>
+   
+
+    <button type="submit" class="btn btn-primary">Confirm Reservation</button>
+</form>

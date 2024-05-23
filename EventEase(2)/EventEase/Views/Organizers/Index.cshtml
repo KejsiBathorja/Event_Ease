@@ -1,0 +1,93 @@
+﻿@model IEnumerable<EventEase.Models.Organizer>
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f8f9fa; /* Ngjyra e sfondit për të gjithë faqen */
+        }
+
+        h1 {
+            color: #343a40; /* Ngjyra e titullit */
+            text-align: center; /* Vendosja e titullit në qendër */
+            margin-bottom: 30px; /* Hapësira e poshtme e titullit */
+        }
+
+        .table {
+            background-color: #fff; /* Ngjyra e sfondit të tabelës */
+            border-radius: 8px; /* Rreze e butë për kornizën e tabelës */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Hija e butë e tabelës */
+        }
+
+            .table th,
+            .table td {
+                color: #343a40; /* Ngjyra e tekstit në tabelë */
+            }
+
+            .table th {
+                background-color: darkslateblue; /* Ngjyra e sfondit të rreshtit të kryer */
+                color: #fff; /* Ngjyra e tekstit të titullit të kolonës */
+            }
+
+            .table a {
+                color: #007bff; /* Ngjyra e lidhjeve */
+                text-decoration: none; /* Hiq linkun nën tekst */
+            }
+
+                .table a:hover {
+                    text-decoration: underline; /* Nënçelje e tekstit kur mbani shkopin mbi të */
+                }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>@ViewData["Title"]</h1>
+
+        <p>
+            <a asp-action="Create">Create New</a>
+        </p>
+
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Name)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Email)
+                    </th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Name)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Email)
+                        </td>
+                        <td>
+                            <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                            <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                            <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</body>
+
+</html>

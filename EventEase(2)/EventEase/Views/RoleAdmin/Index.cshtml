@@ -1,0 +1,74 @@
+﻿@model IEnumerable<EventEase.Models.UserDetailsViewModel>
+
+<div class="container mt-5 mb-5">
+    <h3 class="text-center text-danger font-monospace font-weight-bold text-white ">User Management</h3>
+
+    <style>
+        /* Center align text and make it white */
+        h3, th, td, .text-center {
+            color: #fff;
+            text-align: center;
+        }
+
+        /* Pretty buttons */
+        .btn-pretty {
+            background-color: rgba(255, 192, 203, 0.5); /* Semi-transparent blue */
+            color: #fff; /* White text color */
+            border: none; /* No border */
+            padding: 0.25rem 0.5rem; /* Smaller padding */
+            border-radius: 0.25rem; /* Border radius */
+            transition: background-color 0.3s ease; /* Smooth transition */
+            margin-right: 8px; /* Add some margin between buttons */
+            margin-left:8px;
+            border-color:white;
+        }
+
+            .btn-pretty:hover {
+                background-color: rgba(0, 123, 255, 1); /* Solid blue on hover */
+                color: #fff; /* White text color */
+            }
+    </style>
+
+    <table class="table table-sm table-bordered">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Role</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @if (Model.Count() == 0)
+            {
+                <tr>
+                    <td colspan="4" class="text-center">There are no users.</td>
+                </tr>
+            }
+            else
+            {
+                @foreach (var user in Model)
+                {
+                    <tr>
+                        <td>@user.UserName</td>
+                        <td>@user.Email</td>
+                        <td>@user.Role</td>
+                        <td class="text-center">
+                            <br />
+                            <a class="btn btn-sm btn-pretty" asp-controller="RoleAdmin" asp-route-id="@user.Id" asp-action="Create">Add Role</a><br />
+                            <a class="btn btn-sm btn-pretty" asp-controller="RoleAdmin" asp-route-id="@user.Id" asp-action="ShowEdit">Edit</a><br />
+                            <a class="btn btn-sm btn-pretty" asp-controller="RoleAdmin" asp-route-id="@user.Id" asp-action="RemoveUserRole">Remove Role</a><br />
+                            <form method="post" asp-controller="RoleAdmin" asp-action="Delete" asp-route-id="@user.Id" style="display: inline;"><br />
+                                <button type="submit" class="btn btn-sm btn-pretty">Delete User</button><br />
+                            </form>
+                        </td>
+                    </tr>
+                }
+            }
+        </tbody>
+    </table>
+
+    <div class="text-center">
+        <a asp-controller="Role" class="btn btn-sm btn-pretty">Role Management</a>
+    </div>
+</div>

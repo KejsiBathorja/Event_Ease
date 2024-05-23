@@ -1,0 +1,86 @@
+﻿
+}
+.text-baby-pink {
+    color: #ffb6c1; /* Ngjyra e rozës së fëmijëve */
+}
+
+#styled-head {
+    
+    color: floralwhite; /* Ngjyra e tekstit */
+    font-size: 24px; /* Madhësia e tekstit */
+    font-weight: bold; /* Trashësia e tekstit */
+    border-bottom: 2px solid darkslateblue; /* Kufiri i poshtëm me ngjyrë darkslateblue */
+    padding-bottom: 5px;
+}
+
+
+.text-white {
+    color: white;
+}
+
+/* Stilizimi i grupit të formës */
+.form-group {
+    margin-bottom: 20px; /* Shtoni margjin mes elementeve të formës */
+}
+
+/* Stili për etiketat e kontrolleve të formës */
+.control-label {
+    font-weight: bold; /* Teksti i etiketës është i trashë */
+    color: white; /* Ngjyra e tekstit të etiketës është e bardhë */
+}
+
+/* Stili për inputet e formës */
+.form-control {
+    width: 100%; /* Inputet e formës mbushin gjithë gjerësinë e tyre */
+    padding: 10px; /* Shtoni një hapësirë të përshtatshme për inputet */
+    margin-top: 5px; /* Shtoni një margjin në të lartën e inputeve */
+    color: white; /* Ngjyra e tekstit të inputeve është e bardhë */
+    background-color: rgba(255, 255, 255, 0.2); /* Ngjyra e sfondit të inputeve është e bardhë transparente */
+    border: 1px solid white; /* Kufiri i inputeve është i bardhë */
+}
+
+/* Stilizimi i butonit të formës */
+.btn-primary {
+    background: linear-gradient(to bottom right, #EF4765, #FF9A5A);
+    border: 0;
+    border-radius: 12px;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system, system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 2.5;
+    outline: transparent;
+    padding: 0 1rem;
+    text-align: center;
+    text-decoration: none;
+    transition: box-shadow .2s ease-in-out;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+}
+
+/* Stilizimi për linkun "Back to List" */
+.lis {
+    text-decoration: none;
+    color: aliceblue; /* Ngjyra e tekstit */
+    font-size: 18px; /* Madhësia e tekstit */
+    border: 2px solid white; /* Kufiri i butonit */
+    padding: 10px 20px; /* Hapësirë përmbi dhe poshtë tekstit */
+    background-color: transparent; /* Sfondi transparent */
+    cursor: pointer; /* Kursori të kthehet në një shigjetë kur kalon mbi butonin */
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s; /* Efektet e kalimit të ngjyrës */
+    outline: none; /* Heqni kufijtë e butonit */
+    display: inline-block; /* Bëni që linku të mbetet në një linjë me tekstin e tjetër */
+}
+
+    .lis:hover {
+        background-color: hotpink; /* Ngjyra e sfondit kur kursori i miut futet mbi butonin */
+        color: aquamarine; /* Ndërro ngjyrën e tekstit kur kursori kalon mbi butonin */
+        border-color: hotpink; /* Ndërro ngjyrën e kufirit kur kursori kalon mbi butonin */
+    }
+    .lis.no-underline {
+    text-decoration: none; /* Heq underline-in nga linku */
+}

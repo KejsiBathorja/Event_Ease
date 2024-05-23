@@ -1,0 +1,62 @@
+﻿@model EventEase.Models.Organizer
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<style>
+    /* Center align text and make it white */
+    h1, h4, label, .text-danger {
+        color: #fff;
+        text-align: center;
+    }
+
+    /* Semi-transparent buttons */
+    .btn-transparent {
+        background-color: rgba(255, 255, 255, 0.5); /* Semi-transparent white */
+        border: 1px solid #fff; /* White border */
+        color: #fff; /* Text color */
+    }
+
+        .btn-transparent:hover {
+            background-color: rgba(255, 255, 255, 0.7); /* Lighter semi-transparent white on hover */
+            border: 1px solid #fff; /* White border */
+            color: #fff; /* Text color */
+        }
+</style>
+
+<h1>Edit Organizer</h1>
+
+<div class="container">
+    <div class="row mt-4">
+        <div class="col-md-6 offset-md-3">
+            <h4>Organizer Details</h4>
+            <hr />
+            <form asp-action="Edit">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <input type="hidden" asp-for="Id" />
+                <div class="form-group">
+                    <label asp-for="Name" class="control-label"></label>
+                    <input asp-for="Name" class="form-control" />
+                    <span asp-validation-for="Name" class="text-danger"></span>
+                </div>
+                <br />
+                <div class="form-group">
+                    <button type="submit" class="btn btn-transparent">Save</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div class="row mt-3">
+        <div class="col-md-6 offset-md-3">
+            <a asp-action="Index" class="btn btn-transparent">Back to List</a>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

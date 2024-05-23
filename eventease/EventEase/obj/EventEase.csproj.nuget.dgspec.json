@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Macintoks\\Desktop\\eventease\\EventEase\\EventEase.csproj": {}
+    "C:\\Users\\KEJSI BATHORJA\\OneDrive\\Desktop\\sefshn24\\eventease\\EventEase\\EventEase.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Macintoks\\Desktop\\eventease\\EventEase\\EventEase.csproj": {
+    "C:\\Users\\KEJSI BATHORJA\\OneDrive\\Desktop\\sefshn24\\eventease\\EventEase\\EventEase.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Macintoks\\Desktop\\eventease\\EventEase\\EventEase.csproj",
+        "projectUniqueName": "C:\\Users\\KEJSI BATHORJA\\OneDrive\\Desktop\\sefshn24\\eventease\\EventEase\\EventEase.csproj",
         "projectName": "EventEase",
-        "projectPath": "C:\\Users\\Macintoks\\Desktop\\eventease\\EventEase\\EventEase.csproj",
-        "packagesPath": "C:\\Users\\Macintoks\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Macintoks\\Desktop\\eventease\\EventEase\\obj\\",
+        "projectPath": "C:\\Users\\KEJSI BATHORJA\\OneDrive\\Desktop\\sefshn24\\eventease\\EventEase\\EventEase.csproj",
+        "packagesPath": "C:\\Users\\KEJSI BATHORJA\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\KEJSI BATHORJA\\OneDrive\\Desktop\\sefshn24\\eventease\\EventEase\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Macintoks\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\KEJSI BATHORJA\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -34,11 +34,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -95,7 +90,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

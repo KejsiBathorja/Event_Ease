@@ -1,0 +1,50 @@
+﻿@using Microsoft.AspNetCore.Identity
+@model IEnumerable<IdentityRole>
+
+<div class="container mt-5 mb-5">
+    <h1 class="text-danger text-center font-weight-bold">Role List</h1>
+
+    <p>
+        <a asp-action="Create" asp-controller="Role" class="btn btn-primary">Add Roles</a>
+    </p>
+
+    <div class="table-responsive">
+        <table class="table table-sm table-bordered">
+            <thead>
+                <tr>
+                    <th>@Html.DisplayNameFor(model => model.Name)</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                @if (Model.Count() == 0)
+                {
+                    <tr>
+                        <td colspan="4" class="text-center">There are no roles stored</td>
+                    </tr>
+                }
+                else
+                {
+                    foreach (var role in Model)
+                    {
+                        <tr>
+                            <td>@role.Name</td>
+                            <td>
+                                <div class="btn-group" role="group" aria-label="Actions">
+                                    <a class="btn btn-sm btn-warning" asp-controller="Role" asp-route-id="@role.Id" asp-action="ShowEdit">Edit</a>
+
+                                    @if (role.Name != "Administrator")
+                                    {
+                                        <form method="post" asp-controller="Role" asp-action="Delete" asp-route-id="@role.Id">
+                                            <button type="submit" class="btn btn-sm btn-danger">Delete</button>
+                                        </form>
+                                    }
+                                </div>
+                            </td>
+                        </tr>
+                    }
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

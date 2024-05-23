@@ -1,0 +1,31 @@
+﻿@model EventEase.Models.UserDetailsViewModel
+
+<div class="text-center">
+    <h3>Remove User Role</h3>
+    <form method="post" asp-controller="RoleAdmin" asp-action="RemoveUserRole">
+        <div class="container">
+            <div class="form-group">
+                <label for="Role" class="text-white">Select Role to Remove:</label>
+                @Html.DropDownListFor(model => model.Role, ViewBag.Roles as SelectList, new { @class = "form-control" })
+            </div>
+            <input type="hidden" asp-for="Id" />
+            <br />
+            <div class="form-group">
+                <button type="submit" class="btn btn-danger btn-transparent">Remove Role</button>
+            </div>
+        </div>
+    </form>
+</div>
+
+<style>
+    h3{
+        color:white;
+    }
+    /* Transparent button styles */
+    .btn-transparent {
+        background-color: rgba(255, 0, 0, 0.5); /* Semi-transparent red */
+        border-color: #fff; /* White border */
+        color: #fff; /* White text color */
+        margin-top:14px;
+    }
+</style>

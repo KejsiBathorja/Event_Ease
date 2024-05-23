@@ -1,0 +1,50 @@
+﻿/* Stilizimi për butonin Search */
+.btn-danger {
+    margin-top: 10px;
+    background-color: rgba(255, 255, 255, 0.2); /* Ngjyra e sfondit të inputeve është e bardhë transparente */
+    border: 1px solid white; /* Ngjyra e tekstit brenda butonit */
+    border-color: whitesmoke; /* Ngjyra e kornizës së butonit */
+    transition: background-color 0.3s, color 0.3s; /* Tranzicionet për ngjyrën dhe tekstin */
+}
+
+    /* Efekti i Hover */
+    .btn-danger:hover {
+        background-color: powderblue; /* Ngjyra e butonit kur hover */
+        color: aliceblue; /* Ngjyra e tekstit kur hover */
+    }
+
+    /* Efekti i Click */
+    .btn-danger:active {
+        transform: translateY(1px); /* Ndërro pozicionin e butonit kur shtypet */
+    }
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+    .card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    }
+
+/* Stilizimi për titullin e kartës */
+.card-title {
+    color: #333;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Stilizimi për përshkrimin e kartës */
+.card-text {
+    color: #666;
+    font-size: 16px;
+}
+
+/* Stilizimi për imazhet e kartës */
+.eventPhoto {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}

@@ -1,0 +1,18 @@
+﻿@model EventEase.Models.RoleViewModel
+
+<h3>Add a new role</h3>
+<form asp-action="CreateRole" asp-controller="Role">
+    <div class="form-grout row">
+        <label asp-for="Name" class="col-sm-2 col-form-label"></label>
+        <div class="col-sm-10">
+            <input class="form-control" asp-for="Name" />
+            <span asp-validation-for="Name" class="text-danger"></span>
+        </div>
+    </div>
+    <button type="submit" class="btn btn-sm btn-danger">Save</button>
+</form>
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
